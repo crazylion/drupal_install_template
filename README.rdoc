@@ -12,9 +12,9 @@ Now you can use this script to auto download these.
 
 just  type
 
-./build_drupal list.yml
- or
-ruby build_drupal list.yml
+ ./build_drupal list.yml
+or
+ ruby build_drupal list.yml
 
 and everything is done.
 =Roadmap
