@@ -1,0 +1,20 @@
+base_setting: 
+    version: 5.x
+    update_url: http://updates.drupal.org/release-history/
+modules: 
+    - name: cck
+    - name: update_status
+    - name: views
+    - name: webform
+    - name: nice_menus
+    - name: imce
+    - name: jquery_update
+    - name: jstools
+    - name: link
+    - name: contemplate
+    - name: google_analytics
+    - name: mimedetect
+    - name: views_bonus
+    - name: cck_extras
+    - name: smtp
+    # dir: modules/ #you can setup dist Dir here. If you dont give, default is modules/

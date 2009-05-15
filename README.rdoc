@@ -1,0 +1,20 @@
+=drupal_install_template
+
+The power of drupal is modules. Every-time you startup a project, you will download many and many modules. But, if you have many projects, the management of modules is horrible.
+
+Usually we will keep a copy on our computer. And then we will copy this to startup a new project.
+
+In this way you need to check the update of the modules.
+
+Now you can use this script to auto download these.
+
+=Example usage
+
+just  type
+
+./build_drupal list.yml
+ or
+ruby build_drupal list.yml
+
+and everything is done.
+=Roadmap
