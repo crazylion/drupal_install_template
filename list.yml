@@ -8,6 +8,8 @@ modules:
     - name: webform
     - name: nice_menus
     - name: imce
+    - name: imce_wysiwyg
+    - name: wysiwyg
     - name: jquery_update
     - name: jstools
     - name: link
@@ -17,4 +19,6 @@ modules:
     - name: views_bonus
     - name: cck_extras
     - name: smtp
+    - name: default_filter
+    - name: link
     # dir: modules/ #you can setup dist Dir here. If you dont give, default is modules/

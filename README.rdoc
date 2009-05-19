@@ -18,3 +18,5 @@ or
 
 and everything is done.
 =Roadmap
+*Group-you can set up modules by group, and then give its' name as params to enable downloading . 
+*post process - you can write some script and run after download
