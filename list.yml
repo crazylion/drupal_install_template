@@ -21,4 +21,7 @@ modules:
     - name: smtp
     - name: default_filter
     - name: link
+    - name: active_template
     # dir: modules/ #you can setup dist Dir here. If you dont give, default is modules/
+themes:
+    - name: base

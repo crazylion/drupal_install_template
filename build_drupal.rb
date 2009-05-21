@@ -33,3 +33,13 @@ for mod in settings["modules"]
   `wget #{url} && tar vzxf #{filename} && rm #{filename} && mv  #{dirname} #{durpal_dirname}/modules`
   p "done"
 end
+#download themes
+
+for mod in settings["themes"]
+  p "downloading #{mod['name']}"
+  url = fetch_download_url update_base_url,mod["name"],version
+  filename = url[(url.rindex("/")+1)..-1]
+  dirname = filename[0...filename.rindex("-#{version}")]
+  `wget #{url} && tar vzxf #{filename} && rm #{filename} && mv  #{dirname} #{durpal_dirname}/themes`
+  p "done"
+end
